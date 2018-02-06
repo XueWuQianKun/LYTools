@@ -13,6 +13,8 @@
 		63E3BE462029B6050025CBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE452029B6050025CBDF /* Assets.xcassets */; };
 		63E3BE492029B6050025CBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE472029B6050025CBDF /* LaunchScreen.storyboard */; };
 		63E3BE4C2029B6050025CBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BE4B2029B6050025CBDF /* main.m */; };
+		63E3BE552029B80F0025CBDF /* LYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BE542029B80F0025CBDF /* LYTool.m */; };
+		63E3BE572029B87F0025CBDF /* LYTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE562029B87F0025CBDF /* LYTools.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		63E3BE482029B6050025CBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E3BE4A2029B6050025CBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E3BE4B2029B6050025CBDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63E3BE532029B80F0025CBDF /* LYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTool.h; sourceTree = "<group>"; };
+		63E3BE542029B80F0025CBDF /* LYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTool.m; sourceTree = "<group>"; };
+		63E3BE562029B87F0025CBDF /* LYTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LYTools.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,8 @@
 		63E3BE302029B6050025CBDF = {
 			isa = PBXGroup;
 			children = (
+				63E3BE562029B87F0025CBDF /* LYTools.podspec */,
+				63E3BE522029B7D70025CBDF /* LYTool */,
 				63E3BE3B2029B6050025CBDF /* LYTools */,
 				63E3BE3A2029B6050025CBDF /* Products */,
 			);
@@ -69,6 +76,15 @@
 				63E3BE4B2029B6050025CBDF /* main.m */,
 			);
 			path = LYTools;
+			sourceTree = "<group>";
+		};
+		63E3BE522029B7D70025CBDF /* LYTool */ = {
+			isa = PBXGroup;
+			children = (
+				63E3BE532029B80F0025CBDF /* LYTool.h */,
+				63E3BE542029B80F0025CBDF /* LYTool.m */,
+			);
+			path = LYTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E3BE492029B6050025CBDF /* LaunchScreen.storyboard in Resources */,
+				63E3BE572029B87F0025CBDF /* LYTools.podspec in Resources */,
 				63E3BE462029B6050025CBDF /* Assets.xcassets in Resources */,
 				63E3BE442029B6050025CBDF /* Main.storyboard in Resources */,
 			);
@@ -144,6 +161,7 @@
 			files = (
 				63E3BE412029B6050025CBDF /* ViewController.m in Sources */,
 				63E3BE4C2029B6050025CBDF /* main.m in Sources */,
+				63E3BE552029B80F0025CBDF /* LYTool.m in Sources */,
 				63E3BE3E2029B6050025CBDF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D3CFMJ397;
 				INFOPLIST_FILE = LYTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangyu.LYTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D3CFMJ397;
 				INFOPLIST_FILE = LYTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangyu.LYTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";

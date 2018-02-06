@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LYTools'
+  s.name             = 'LYTool'
   s.version          = '0.1.0'
   s.summary          = '测试pod导入.'
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LYTools/LYTool/**/*'
+  s.source_files = 'LYTool/*.{h,m}'
   
   # s.resource_bundles = {
   #   'LYSDK' => ['LYSDK/Assets/*.png']

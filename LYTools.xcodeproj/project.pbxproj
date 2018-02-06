@@ -14,7 +14,7 @@
 		63E3BE492029B6050025CBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE472029B6050025CBDF /* LaunchScreen.storyboard */; };
 		63E3BE4C2029B6050025CBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BE4B2029B6050025CBDF /* main.m */; };
 		63E3BE552029B80F0025CBDF /* LYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E3BE542029B80F0025CBDF /* LYTool.m */; };
-		63E3BE572029B87F0025CBDF /* LYTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE562029B87F0025CBDF /* LYTools.podspec */; };
+		63E3BE572029B87F0025CBDF /* LYTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 63E3BE562029B87F0025CBDF /* LYTool.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		63E3BE4B2029B6050025CBDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63E3BE532029B80F0025CBDF /* LYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTool.h; sourceTree = "<group>"; };
 		63E3BE542029B80F0025CBDF /* LYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTool.m; sourceTree = "<group>"; };
-		63E3BE562029B87F0025CBDF /* LYTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LYTools.podspec; sourceTree = "<group>"; };
+		63E3BE562029B87F0025CBDF /* LYTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LYTool.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		63E3BE302029B6050025CBDF = {
 			isa = PBXGroup;
 			children = (
-				63E3BE562029B87F0025CBDF /* LYTools.podspec */,
+				63E3BE562029B87F0025CBDF /* LYTool.podspec */,
 				63E3BE522029B7D70025CBDF /* LYTool */,
 				63E3BE3B2029B6050025CBDF /* LYTools */,
 				63E3BE3A2029B6050025CBDF /* Products */,
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E3BE492029B6050025CBDF /* LaunchScreen.storyboard in Resources */,
-				63E3BE572029B87F0025CBDF /* LYTools.podspec in Resources */,
+				63E3BE572029B87F0025CBDF /* LYTool.podspec in Resources */,
 				63E3BE462029B6050025CBDF /* Assets.xcassets in Resources */,
 				63E3BE442029B6050025CBDF /* Main.storyboard in Resources */,
 			);

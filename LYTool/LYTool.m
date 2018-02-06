@@ -9,5 +9,8 @@
 #import "LYTool.h"
 
 @implementation LYTool
-
+- (void)print
+{
+    NSLog(@"哈哈哈，成功了");
+}
 @end

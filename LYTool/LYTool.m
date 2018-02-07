@@ -11,6 +11,6 @@
 @implementation LYTool
 - (void)print
 {
-    NSLog(@"哈哈哈，成功了");
+    NSLog(@"帅是个2bbbbbb");
 }
 @end

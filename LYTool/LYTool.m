@@ -11,6 +11,6 @@
 @implementation LYTool
 - (void)print
 {
-    NSLog(@"帅是个2bbbbbb,第四个版本");
+    NSLog(@"帅是个2bbbbbb,最后的测试版本");
 }
 @end

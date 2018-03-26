@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYTool'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1 '
   s.summary          = '测试pod导入.'
 
 # This description is used to generate tags and improve search results.
@@ -23,16 +23,17 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'XueWuQianKun' => '1603196678@qq.com' }
-  s.source           = { :git => 'https://github.com/XueWuQianKun/LYTools.git', :tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/XueWuQianKun/LYTools.git', :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'LYTool/*'
+s.source_files = 'LYTool/*.{h,m}'
+s.vendored_frameworks = 'LYTool/*.framework'
   
-  # s.resource_bundles = {
-  #   'LYSDK' => ['LYSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+    'LCResource' => 'LYTools/LYTool/*.{png,xib,strings}'
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

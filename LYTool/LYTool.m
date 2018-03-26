@@ -9,9 +9,5 @@
 #import "LYTool.h"
 
 @implementation LYTool
-- (void)print
-{
-    NSLog(@"sssssssssssssssssssssssssss");
 
-}
 @end

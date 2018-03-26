@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYTool'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = '测试pod导入.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LYTool/*.{h,m}'
+  s.source_files = 'LYTool/*.{h,m,framework,bundle}'
   
   # s.resource_bundles = {
   #   'LYSDK' => ['LYSDK/Assets/*.png']

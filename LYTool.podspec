@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYTool'
-  s.version          = '1.0.3 '
+  s.version          = '1.0.4 '
   s.summary          = '测试库'
 
 # This description is used to generate tags and improve search results.

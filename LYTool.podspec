@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYTool'
-  s.version          = '1.0.5 '
+  s.version          = '1.0.6 '
   s.summary          = '测试库'
 
 # This description is used to generate tags and improve search results.
@@ -27,15 +27,19 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+s.platform =  :ios,'8.0'
+s.requires_arc = true
 
 s.source_files = 'LYTool/*.{h,m}'
-#s.vendored_frameworks = 'LYTool/*.framework'
-#s.resources    = 'LYTool/LCResource.bundle'
-# s.resource_bundles = {
-#  'LCResource' => 'LYTool/LCResource/*.{png,xib,strings}'
+s.frameworks = 'UIKit', 'MapKit'
+s.dependency 'AFNetworking', '~> 2.3'
+s.vendored_frameworks = 'LYTool/*.{framework}'
+s.resources    = 'LYTool/LCResource.bundle'
+
+#s.resource_bundles = {
+#  'LCResourceBundle' => ['LYTool/LCResource.bundle']
 # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end
